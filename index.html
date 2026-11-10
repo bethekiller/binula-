@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | Binula Jayaneththi e-Portfolio</title>
+  <meta name="description" content="Binula Jayaneththi's Swinburne e-Portfolio: purpose, introduction and about me.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- TOP: name + Swinburne logo (same on every page) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <p class="header-tag">My e-Portfolio</p>
+      <div class="brand">
+        <span class="brand-name">Binula Jayaneththi</span>
+        <img class="brand-logo" src="images/swinburne-logo.jpeg" alt="Swinburne University of Technology logo">
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION (same on every page) -->
+  <nav class="main-nav" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu"><span class="burger"></span> Menu</button>
+      <ul class="nav-list" id="menu">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="skills-work.html">Skills Work</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="presentation.html">Presentation</a></li>
+          <li><a href="peer-review.html">Peer Review</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="bubbles" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="container">
+        <h1 class="hero-item">Welcome to my learning e-Portfolio</h1>
+        <p class="hero-item">A place where I collect, reflect on and present the work I complete at Swinburne University of Technology.</p>
+        <div class="btn-row hero-item"><a class="btn btn-primary" href="#purpose">Why this site exists</a><a class="btn btn-ghost" href="#about">About me</a></div>
+      </div>
+      <div class="waves" aria-hidden="true">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+          <path class="wave-a" d="M0,60 C240,110 480,10 720,55 C960,100 1200,20 1440,60 L1440,120 L0,120 Z"/>
+          <path class="wave-b" d="M0,80 C220,30 520,110 760,70 C1000,30 1240,100 1440,70 L1440,120 L0,120 Z"/>
+          <path class="wave-c" d="M0,100 C300,70 600,120 900,95 C1150,75 1300,100 1440,95 L1440,120 L0,120 Z"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section" id="purpose">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2>Purpose of this website</h2>
+          <p>This e-Portfolio shows my progress through this unit in one organised place. It lets my tutor and classmates see what I have done, how I planned my study, and what I learned along the way.</p>
+        </div>
+        <div class="grid-3">
+          <a class="card card-link" href="skills-work.html" data-reveal style="--d:.05s">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M8 7h7M8 11h7"/></svg></div>
+            <h3>Skills Work</h3>
+            <p>Article summary, study schedule and my self-reflection essay.</p>
+            <span class="more">Open page</span>
+          </a>
+          <a class="card card-link" href="research.html" data-reveal style="--d:.15s">
+            <div class="icon"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div>
+            <h3>Research</h3>
+            <p>My research project from first idea to final report.</p>
+            <span class="more">Open page</span>
+          </a>
+          <a class="card card-link" href="presentation.html" data-reveal style="--d:.25s">
+            <div class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 21l4-5 4 5"/></svg></div>
+            <h3>Presentation</h3>
+            <p>"My Learning Journey", a short oral presentation with slides.</p>
+            <span class="more">Open page</span>
+          </a>
+          <a class="card card-link" href="peer-review.html" data-reveal style="--d:.35s">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L3 21l1.9-6.4A8 8 0 1 1 21 12z"/></svg></div>
+            <h3>Peer Review</h3>
+            <p>Feedback I gave to classmates and feedback I received.</p>
+            <span class="more">Open page</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section foam" id="my-work">
+      <div class="container split">
+        <div data-reveal="left">
+          <h2>A short introduction to my work</h2>
+          <p>I am a student at Swinburne University of Technology, studying <span class="fill">add your course name</span>. This semester I am building the study habits, writing skills and research skills I need to succeed at university.</p>
+          <p>Every page of this site holds real work: summaries, schedules, research and reflections. Each piece is something I can look back on to see how much I have improved.</p>
+        </div>
+        <div class="card" data-reveal="right">
+          <h3>What I am working on</h3>
+          <ul class="checklist">
+            <li>Summarising academic articles in my own words</li>
+            <li>Planning my study time with a weekly schedule</li>
+            <li>Completing a research project and report</li>
+            <li>Presenting my learning journey to the class</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2>About me</h2>
+          <p>A few quick facts so you know who is behind this portfolio.</p>
+        </div>
+        <dl class="about-grid">
+          <div class="fact" data-reveal style="--d:.05s"><dt>Name</dt><dd>Binula Jayaneththi</dd></div>
+          <div class="fact" data-reveal style="--d:.15s"><dt>Age</dt><dd><span class="fill">add your age</span></dd></div>
+          <div class="fact" data-reveal style="--d:.25s"><dt>School</dt><dd>Royal College, Colombo 7</dd></div>
+          <div class="fact" data-reveal style="--d:.35s"><dt>From</dt><dd><span class="fill">add your hometown</span>, Sri Lanka</dd></div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Binula Jayaneththi. Swinburne University of Technology.</p>
+    <p><a href="#top" onclick="window.scrollTo({top:0});return false;">Back to top</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

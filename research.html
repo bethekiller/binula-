@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research | Binula Jayaneththi e-Portfolio</title>
+  <meta name="description" content="Research project stages and files.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- TOP: name + Swinburne logo (same on every page) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <p class="header-tag">My e-Portfolio</p>
+      <div class="brand">
+        <span class="brand-name">Binula Jayaneththi</span>
+        <img class="brand-logo" src="images/swinburne-logo.jpeg" alt="Swinburne University of Technology logo">
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION (same on every page) -->
+  <nav class="main-nav" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu"><span class="burger"></span> Menu</button>
+      <ul class="nav-list" id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="skills-work.html">Skills Work</a></li>
+          <li><a href="research.html" aria-current="page">Research</a></li>
+          <li><a href="presentation.html">Presentation</a></li>
+          <li><a href="peer-review.html">Peer Review</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero small" id="top">
+      <div class="bubbles" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="container">
+        <h1 class="hero-item">Research Project</h1>
+        <p class="hero-item">How I moved from a question to a finished report, one stage at a time.</p>
+        
+      </div>
+      <div class="waves" aria-hidden="true">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+          <path class="wave-a" d="M0,60 C240,110 480,10 720,55 C960,100 1200,20 1440,60 L1440,120 L0,120 Z"/>
+          <path class="wave-b" d="M0,80 C220,30 520,110 760,70 C1000,30 1240,100 1440,70 L1440,120 L0,120 Z"/>
+          <path class="wave-c" d="M0,100 C300,70 600,120 900,95 C1150,75 1300,100 1440,95 L1440,120 L0,120 Z"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div data-reveal="left">
+          <h2>My research topic</h2>
+          <p><span class="fill">Write your research question here.</span></p>
+          <p>I chose this topic because <span class="fill">explain why it interests you</span>.</p>
+        </div>
+        <div class="card" data-reveal="right">
+          <h3>At a glance</h3>
+          <p><strong>Subject area:</strong> <span class="fill">add subject</span></p>
+          <p><strong>Sources used:</strong> <span class="fill">add number</span></p>
+          <p><strong>Final report:</strong> <span class="fill">add word count</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section foam">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2>Project stages</h2>
+          <p>Each stage builds on the one before it.</p>
+        </div>
+        <ol class="timeline">
+          <li data-reveal="left"><h3>Plan the project</h3><p>Choose a topic, write the research question and list what I need to find out.</p></li>
+          <li data-reveal="left" style="--d:.1s"><h3>Find and read sources</h3><p>Collect reliable articles and record notes and references for each one.</p></li>
+          <li data-reveal="left" style="--d:.2s"><h3>Analyse the information</h3><p>Compare what the sources say and organise the findings with tables or charts.</p></li>
+          <li data-reveal="left" style="--d:.3s"><h3>Write the report</h3><p>Present the findings clearly, then add conclusions and a reference list.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2>Research files</h2>
+        </div>
+        <div class="grid-3">
+          <div class="card" data-reveal style="--d:.05s"><h3>Research proposal</h3><p>My plan and research question.</p><ul class="file-list"><li><a href="files/research-proposal.docx" download>Download <span class="badge">Word</span></a></li></ul></div>
+          <div class="card" data-reveal style="--d:.15s"><h3>Data and charts</h3><p>The numbers and graphs behind my findings.</p><ul class="file-list"><li><a href="files/research-data.xlsx" download>Download <span class="badge">Excel</span></a></li></ul></div>
+          <div class="card" data-reveal style="--d:.25s"><h3>Final report</h3><p>My complete research report.</p><ul class="file-list"><li><a href="files/research-report.docx" download>Download <span class="badge">Word</span></a></li></ul></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Binula Jayaneththi. Swinburne University of Technology.</p>
+    <p><a href="#top" onclick="window.scrollTo({top:0});return false;">Back to top</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Peer Review | Binula Jayaneththi e-Portfolio</title>
+  <meta name="description" content="Peer feedback given and received.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- TOP: name + Swinburne logo (same on every page) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <p class="header-tag">My e-Portfolio</p>
+      <div class="brand">
+        <span class="brand-name">Binula Jayaneththi</span>
+        <img class="brand-logo" src="images/swinburne-logo.jpeg" alt="Swinburne University of Technology logo">
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION (same on every page) -->
+  <nav class="main-nav" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu"><span class="burger"></span> Menu</button>
+      <ul class="nav-list" id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="skills-work.html">Skills Work</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="presentation.html">Presentation</a></li>
+          <li><a href="peer-review.html" aria-current="page">Peer Review</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero small" id="top">
+      <div class="bubbles" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="container">
+        <h1 class="hero-item">Peer Review</h1>
+        <p class="hero-item">Learning from my classmates by giving and receiving honest, useful feedback.</p>
+        
+      </div>
+      <div class="waves" aria-hidden="true">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+          <path class="wave-a" d="M0,60 C240,110 480,10 720,55 C960,100 1200,20 1440,60 L1440,120 L0,120 Z"/>
+          <path class="wave-b" d="M0,80 C220,30 520,110 760,70 C1000,30 1240,100 1440,70 L1440,120 L0,120 Z"/>
+          <path class="wave-c" d="M0,100 C300,70 600,120 900,95 C1150,75 1300,100 1440,95 L1440,120 L0,120 Z"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2>Why peer review matters</h2>
+          <p>Reading a classmate's work helps me see my own work more clearly. Good feedback names what works, what is unclear and what to try next.</p>
+        </div>
+        <div class="grid-3">
+          <div class="card" data-reveal style="--d:.05s">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg></div>
+            <h3>Feedback I gave</h3>
+            <p>I reviewed <span class="fill">classmate's name</span>'s work on <span class="fill">task name</span>.</p>
+            <p><strong>Strength:</strong> <span class="fill">add one</span></p>
+            <p><strong>Suggestion:</strong> <span class="fill">add one</span></p>
+          </div>
+          <div class="card" data-reveal style="--d:.15s">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L3 21l1.9-6.4A8 8 0 1 1 21 12z"/></svg></div>
+            <h3>Feedback I received</h3>
+            <p><span class="fill">Summarise what your classmate said about your work.</span></p>
+          </div>
+          <div class="card" data-reveal style="--d:.25s">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 15-6.7L21 8M21 3v5h-5M21 12a9 9 0 0 1-15 6.7L3 16M3 21v-5h5"/></svg></div>
+            <h3>What I changed</h3>
+            <p><span class="fill">Describe one improvement you made because of the feedback.</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section foam">
+      <div class="container split">
+        <div data-reveal="left">
+          <h2>My peer review files</h2>
+          <ul class="file-list">
+            <li><a href="files/feedback-given.docx" download>Feedback I gave <span class="badge">Word</span></a></li>
+            <li><a href="files/feedback-received.docx" download>Feedback I received <span class="badge">Word</span></a></li>
+          </ul>
+        </div>
+        <div class="card" data-reveal="right">
+          <h3>My feedback rules</h3>
+          <ul class="checklist">
+            <li>Be kind and specific</li>
+            <li>Start with what works well</li>
+            <li>Give one clear idea to improve</li>
+            <li>Say thank you for feedback I receive</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Binula Jayaneththi. Swinburne University of Technology.</p>
+    <p><a href="#top" onclick="window.scrollTo({top:0});return false;">Back to top</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

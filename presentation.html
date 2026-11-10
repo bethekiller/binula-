@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Presentation | Binula Jayaneththi e-Portfolio</title>
+  <meta name="description" content="My Learning Journey oral presentation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- TOP: name + Swinburne logo (same on every page) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <p class="header-tag">My e-Portfolio</p>
+      <div class="brand">
+        <span class="brand-name">Binula Jayaneththi</span>
+        <img class="brand-logo" src="images/swinburne-logo.jpeg" alt="Swinburne University of Technology logo">
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION (same on every page) -->
+  <nav class="main-nav" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu"><span class="burger"></span> Menu</button>
+      <ul class="nav-list" id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="skills-work.html">Skills Work</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="presentation.html" aria-current="page">Presentation</a></li>
+          <li><a href="peer-review.html">Peer Review</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero small" id="top">
+      <div class="bubbles" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="container">
+        <h1 class="hero-item">Presentation: My Learning Journey</h1>
+        <p class="hero-item">A 3 to 4 minute oral presentation that shares how I have grown as a learner this semester.</p>
+        
+      </div>
+      <div class="waves" aria-hidden="true">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+          <path class="wave-a" d="M0,60 C240,110 480,10 720,55 C960,100 1200,20 1440,60 L1440,120 L0,120 Z"/>
+          <path class="wave-b" d="M0,80 C220,30 520,110 760,70 C1000,30 1240,100 1440,70 L1440,120 L0,120 Z"/>
+          <path class="wave-c" d="M0,100 C300,70 600,120 900,95 C1150,75 1300,100 1440,95 L1440,120 L0,120 Z"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div data-reveal="left">
+          <div class="slide-frame"><div><strong>My Learning Journey</strong><span>Binula Jayaneththi</span></div></div>
+        </div>
+        <div data-reveal="right">
+          <h2>My slides</h2>
+          <p>My PowerPoint slides support what I say. Each slide has one main idea and very little text.</p>
+          <ul class="file-list">
+            <li><a href="files/my-learning-journey.pptx" download>My Learning Journey slides <span class="badge">PowerPoint</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section foam">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2>Presentation plan</h2>
+          <p>How I use my 3 to 4 minutes.</p>
+        </div>
+        <div class="grid-3">
+          <div class="card" data-reveal style="--d:.05s"><h3>Where I started</h3><p>My first expectations of university study. About 45 seconds.</p></div>
+          <div class="card" data-reveal style="--d:.15s"><h3>What I learned</h3><p>The skills and ideas that helped me most. About 90 seconds.</p></div>
+          <div class="card" data-reveal style="--d:.25s"><h3>Challenges</h3><p>What was hard and how I handled it. About 45 seconds.</p></div>
+          <div class="card" data-reveal style="--d:.35s"><h3>Next steps</h3><p>The goals I am setting for next semester. About 30 seconds.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div class="card" data-reveal="left">
+          <h3>My presenting checklist</h3>
+          <ul class="checklist">
+            <li>Practise out loud with a timer</li>
+            <li>Keep slides short and clear</li>
+            <li>Look at the audience, not the screen</li>
+            <li>Finish within 4 minutes</li>
+          </ul>
+        </div>
+        <div data-reveal="right">
+          <h2>Reflection after presenting</h2>
+          <p><span class="fill">After your presentation, write two or three sentences about how it went and what you would improve.</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Binula Jayaneththi. Swinburne University of Technology.</p>
+    <p><a href="#top" onclick="window.scrollTo({top:0});return false;">Back to top</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
